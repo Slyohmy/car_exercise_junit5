@@ -25,6 +25,10 @@ public class Car {
         }
     }
 
+    public void honk () {
+        System.out.println("Honk, honk!");
+    }
+
     public Frontlights getFrontLights() {
         return frontlights;
     }
